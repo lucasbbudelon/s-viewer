@@ -1,0 +1,32 @@
+{
+    "id": "XPTO",
+    "name": "Nome do time",
+    "description": "Descrição do time",
+    "members": [
+        {
+            "name": "João",
+            "chapter": "PO"
+        },
+        {
+            "name": "Maria",
+            "chapter": "QA"
+        },
+        {
+            "name": "Lucas",
+            "chapter": "WEB"
+        },
+        {
+            "name": "Pedro",
+            "chapter": "BACKEND"
+        },
+        {
+            "name": "Marcos",
+            "chapter": "AGILISTA"
+        }
+    ],
+    "services": [
+        "micro-service-x",
+        "micro-service-y",
+        "micro-service-z"
+    ]
+}

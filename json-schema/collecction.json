@@ -1,0 +1,25 @@
+{
+    "id": "XPTO",
+    "name": "Nome da coleção",
+    "description": "Descrição da coleção",
+    "owner": "ABC",
+    "tags": [
+        "FRONTEND",
+        "WEB"
+    ],
+    "doc": "https://doc.alfa.com/XPTO",
+    "services": [
+        {
+            "id": "micro-service-x",
+            "version": "v3"
+        },
+        {
+            "id": "micro-service-y",
+            "version": "v1"
+        },
+        {
+            "id": "micro-service-z",
+            "version": "v4"
+        }
+    ]
+}

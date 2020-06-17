@@ -1,0 +1,109 @@
+{
+    "id": "XPTO",
+    "name": "Nome do micro serviço",
+    "description": "Descrição sobre a função do micro serviço",
+    "owner": "XPTO",
+    "doc": "https://doc.alfa.com/XPTO",
+    "jenkins": "https://cicd.alfa.com/XPTO",
+    "type": "MS",
+    "repo": "https://git.alfa.com/XPTO",
+    "versions": [
+        {
+            "id": "v1",
+            "microService": [
+                {
+                    "id": "micro-service-x",
+                    "version": "v1",
+                    "type": "MS"
+                },
+                {
+                    "id": "micro-service-y",
+                    "version": "v2",
+                    "type": "MS"
+                },
+                {
+                    "id": "micro-service-z",
+                    "version": "v1",
+                    "type": "MS"
+                }
+            ],
+            "esb": [
+                {
+                    "id": "esb-xpto",
+                    "type": "ESB"
+                }
+            ],
+            "database": [
+                {
+                    "id": "micro-service-db",
+                    "type": "MYSQL"
+                }
+            ],
+            "input": [
+                {
+                    "id": "micro-service-z",
+                    "type": "TOPIC_KAFKA_INPUT"
+                },
+                {
+                    "id": "micro-service-x",
+                    "type": "TOPIC_KAFKA_INPUT"
+                }
+            ],
+            "output": [
+                {
+                    "id": "micro-service-xpto",
+                    "type": "TOPIC_KAFKA_OUTPUT"
+                }
+            ]
+        },
+        {
+            "id": "v2",
+            "microService": [
+                {
+                    "id": "micro-service-x",
+                    "version": "v2",
+                    "type": "MS"
+                },
+                {
+                    "id": "micro-service-y",
+                    "version": "v3",
+                    "type": "MS"
+                },
+                {
+                    "id": "micro-service-z",
+                    "version": "v5",
+                    "type": "MS"
+                }
+            ],
+            "esb": [
+                {
+                    "id": "esb-xpto",
+                    "type": "ESB"
+                }
+            ],
+            "database": [
+                {
+                    "id": "micro-service-db",
+                    "type": "MYSQL"
+                }
+            ],
+            "input": [
+                {
+                    "id": "micro-service-x",
+                    "type": "TOPIC_KAFKA_INPUT"
+                }
+            ],
+            "output": [
+                {
+                    "id": "micro-service-xpto",
+                    "type": "TOPIC_KAFKA_OUTPUT"
+                }
+            ]
+        }
+    ],
+    "resources": [
+        "health",
+        "env"
+    ],
+    "lastSync": 1592281316192
+}
